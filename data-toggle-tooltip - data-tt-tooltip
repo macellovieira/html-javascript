@@ -1,0 +1,19 @@
+<script type="text/javascript">
+
+      $('[data-toggle="tooltip"]').tooltip({
+          trigger : 'hover'
+      }) 
+
+      $('[data-tt="tooltip"]').tooltip({
+          trigger : 'hover'
+      }) 
+
+</script>
+
+<button type="button"
+       data-toggle="modal" data-target="#modal_TEXTO" data-toggle="tooltip" data-placement="top"  
+       data-tt="tooltip" title="TEXTO"> TEXTO
+</button>
+
+
+
